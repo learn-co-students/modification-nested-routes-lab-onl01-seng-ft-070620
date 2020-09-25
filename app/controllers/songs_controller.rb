@@ -43,7 +43,7 @@ class SongsController < ApplicationController
 
     if @song.save
       redirect_to @song
-    else
+    else 
       render :new
     end
   end
